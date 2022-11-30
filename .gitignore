@@ -1,1 +1,8 @@
+# Rust
 target/
+
+# General
+*.jar
+*.class
+.cph/
+.vscode/
