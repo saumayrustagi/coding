@@ -1,8 +1,16 @@
+# Ignore all without extensions
+*
+!*.*
+!*/
+#
+
 # Rust
 target/
+#
 
 # General
 *.jar
 *.class
 .cph/
 .vscode/
+#
