@@ -4,7 +4,7 @@ struct Rectangle {
     height: u32,
 }
 impl Rectangle {
-    fn area(rect: &Rectangle) -> u32 {
+    fn _area(rect: &Rectangle) -> u32 {
         rect.width * rect.height
     }
     fn can_hold(&self, other: &Rectangle) -> bool {
