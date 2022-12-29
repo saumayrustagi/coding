@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "learning_rust/ch5"
 		}
 	],
 	"settings": {}
