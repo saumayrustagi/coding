@@ -11,6 +11,7 @@ target/
 # General
 *.jar
 *.class
+__pycache__/
 .cph/
 .vscode/
 #
