@@ -5,3 +5,5 @@ defmodule Test do
 		puts(is_integer(4))
 	end
 end
+
+Test.test
