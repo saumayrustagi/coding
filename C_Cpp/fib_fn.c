@@ -6,9 +6,9 @@ long fibo(long ans, long prev, long count, long n){
 	}
 	else{
 		if(count<n){
-			return fibo(prev, prev+ans, count+1);
+			return fibo(prev, prev+ans, count+1, n);
 		}
-		return prev;
+		return ans;
 	}
 }
 
