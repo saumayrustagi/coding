@@ -22,7 +22,7 @@ fn main() {
                 continue;
             }
         };
-		
+
         match guessint.cmp(&secret_number) {
             Ordering::Less => println!("Too small!"),
             Ordering::Greater => println!("Too big!"),

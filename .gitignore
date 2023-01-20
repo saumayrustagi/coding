@@ -9,6 +9,7 @@ target/
 #
 
 # General
+*.swp
 *.jar
 *.class
 __pycache__/

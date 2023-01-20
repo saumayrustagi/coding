@@ -4,6 +4,6 @@ fn main() {
     println!("{a}");
 }
 
-fn testing(a:u32)->u32{
-    a+1
+fn testing(a: u32) -> u32 {
+    a + 1
 }
