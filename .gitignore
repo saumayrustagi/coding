@@ -9,6 +9,7 @@ target/
 #
 
 # General
+*.out
 *.swp
 *.jar
 *.class
