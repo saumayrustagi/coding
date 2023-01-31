@@ -48,10 +48,5 @@ int main(){
 	print(list);printf("\n");
 	delete_node(list, 1);
 	print(list);
+	return 0;
 }
-
-
-
-
-
-
