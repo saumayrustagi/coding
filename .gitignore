@@ -8,6 +8,10 @@
 target/
 #
 
+# TypeScript
+learning_ts/*.js
+#
+
 # General
 *.out
 *.swp
