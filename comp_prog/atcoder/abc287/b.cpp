@@ -12,8 +12,20 @@ void solution()
 		cin>>s[n];
 	while(m--)
 		cin>>t[m];
-
 	int answer = 0;
+	for(string i: s){
+		string sub = i.substr(3);
+		bool match = false;
+		for(string j: t){
+			if(sub == j){
+				match = true;
+				break;
+			}
+		}
+		if(match)
+			++answer;
+	}
+	cout<<answer<<'\n';
 	return;
 }
 
