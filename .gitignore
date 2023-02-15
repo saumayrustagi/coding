@@ -8,16 +8,14 @@
 target/
 #
 
-# TypeScript
-learning_ts/*.js
-#
+# Python Compiled
+__pycache__/
 
 # General
 *.out
 *.swp
 *.jar
 *.class
-__pycache__/
 .cph/
 .vscode/
 #
