@@ -1,21 +1,22 @@
+#!/bin/racket
 #lang sicp
 
 ; ACTUAL PROGRAM
 (((lambda (x) (lambda (y) (- x y))) 3) 4)
 
 ; PRETTY-PRINTED
-(((lambda (x) 
-    (lambda (y)
-      (- x y)) )
-  3)
- 4)
+; (((lambda (x) 
+;     (lambda (y)
+;       (- x y)) )
+;   3)
+;  4)
 
 ; MY SIMPLIFICATION
-(define (pro1 x)
-  (lambda (y)
-    (- x y)))
+; (define (pro1 x)
+;  (lambda (y)
+;    (- x y)))
 
-((pro1 3) 4)
+; ((pro1 3) 4)
 
 ; RECURSIVELY INFINITE CONVERGENCE EXPONENTIATION FUNCTION
 (define f (lambda (g)
@@ -31,4 +32,4 @@
         (else (* x
                  (g x (- n 1))))))
 
-; ((f g) 16 2)
+((f g) 16 2)
