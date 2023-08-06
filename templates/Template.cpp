@@ -1,5 +1,5 @@
 #include <iostream>
-
+#define ll long long;
 using namespace std;
 
 void solution()
@@ -10,10 +10,7 @@ void solution()
 
 void solve(int n)
 {
-	do
-	{
-		solution();
-	} while (--n);
+	while (n--) solution();
 	return;
 }
 
