@@ -1,0 +1,12 @@
+[x] grid 1,1 to m,n with obstacles
+[x] 0/1 knapsack
+[x] longest palidromic string subsequence 
+[x] edit distance
+
+[x] bfs
+[x] dfs
+
+[x] Virtual memory,
+[x] page tables,
+[x] pipelining,
+[x] caches
