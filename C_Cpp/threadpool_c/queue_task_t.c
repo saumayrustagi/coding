@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <pthread.h>
 
-#include "queue_task.h"
+#include "queue_task_t.h"
 
 queue_task_t *queue_init(int capacity)
 {
