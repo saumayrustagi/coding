@@ -20,6 +20,6 @@ queue_task_t *queue_init(int capacity);
 
 void queue_destroy(queue_task_t *q);
 
-int enqueue(queue_task_t *q, task_t val);
+void enqueue(queue_task_t *q, task_t val);
 
-int dequeue(queue_task_t *q);
+task_t dequeue(queue_task_t *q);

@@ -30,11 +30,11 @@ void enqueue(queue_task_t *q, task_t val)
 	q->tail = (q->tail < q->capacity - 1) ? q->tail + 1 : 0;
 }
 
-int dequeue(queue_task_t *q)
+task_t dequeue(queue_task_t *q)
 {
 	assert(q->size > 0);
 	--(q->size);
-	int tmp = q->head;
+	task_t tmp = q->array[q->head];
 	q->head = (q->head < q->capacity - 1) ? q->head + 1 : 0;
 	return tmp;
 }
