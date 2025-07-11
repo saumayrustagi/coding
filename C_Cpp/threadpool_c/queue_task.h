@@ -14,6 +14,10 @@ typedef struct
 	int capacity;
 	int head;
 	int tail;
+
+	pthread_mutex_t lock;
+	pthread_cond_t not_empty;
+	pthread_cond_t not_full;
 } queue_task_t;
 
 queue_task_t *queue_init(int capacity);
