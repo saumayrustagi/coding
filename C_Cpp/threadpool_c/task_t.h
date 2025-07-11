@@ -2,6 +2,6 @@
 
 typedef struct
 {
-	void (*function)(void *);
+	void (*fn)(void *);
 	void *args;
 } task_t;
